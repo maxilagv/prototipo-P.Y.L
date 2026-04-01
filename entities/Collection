@@ -1,0 +1,30 @@
+{
+  "name": "Collection",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "title": "Collection Name"
+    },
+    "slug": {
+      "type": "string",
+      "title": "URL Slug"
+    },
+    "description": {
+      "type": "string",
+      "title": "Curatorial Description"
+    },
+    "cover_image": {
+      "type": "string",
+      "title": "Cover Image URL"
+    },
+    "sort_order": {
+      "type": "number",
+      "title": "Sort Order"
+    }
+  },
+  "required": [
+    "name",
+    "slug"
+  ]
+}

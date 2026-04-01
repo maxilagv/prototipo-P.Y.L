@@ -1,0 +1,38 @@
+{
+  "name": "Inquiry",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "title": "Full Name"
+    },
+    "email": {
+      "type": "string",
+      "title": "Email"
+    },
+    "message": {
+      "type": "string",
+      "title": "Message"
+    },
+    "artwork_title": {
+      "type": "string",
+      "title": "Artwork Reference"
+    },
+    "status": {
+      "type": "string",
+      "title": "Status",
+      "enum": [
+        "New",
+        "Read",
+        "Responded",
+        "Closed"
+      ],
+      "default": "New"
+    }
+  },
+  "required": [
+    "name",
+    "email",
+    "message"
+  ]
+}

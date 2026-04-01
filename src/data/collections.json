@@ -1,0 +1,26 @@
+[
+  {
+    "id": "col-1",
+    "name": "Fragmentos del Tiempo",
+    "slug": "fragmentos-del-tiempo",
+    "description": "Una exploración visual de la memoria y el olvido. Cada pieza captura instantes suspendidos entre lo que fue y lo que podría haber sido.",
+    "cover_image": "https://images.unsplash.com/photo-1549490349-8643362247b5?auto=format&fit=crop&w=800&q=85",
+    "sort_order": 1
+  },
+  {
+    "id": "col-2",
+    "name": "Geometría del Alma",
+    "slug": "geometria-del-alma",
+    "description": "Formas puras que dialogan con lo invisible. Una serie donde la abstracción geométrica se convierte en lenguaje emocional.",
+    "cover_image": "https://images.unsplash.com/photo-1567095761054-7a02e69e5c43?auto=format&fit=crop&w=800&q=85",
+    "sort_order": 2
+  },
+  {
+    "id": "col-3",
+    "name": "Luz Artificial",
+    "slug": "luz-artificial",
+    "description": "El contraste entre la frialdad tecnológica y el calor humano. Obras que cuestionan dónde termina la máquina y dónde comienza el artista.",
+    "cover_image": "https://images.unsplash.com/photo-1574169208507-84376144848b?auto=format&fit=crop&w=800&q=85",
+    "sort_order": 3
+  }
+]

@@ -1,0 +1,86 @@
+{
+  "name": "Artwork",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "title": "Artwork Title"
+    },
+    "slug": {
+      "type": "string",
+      "title": "URL Slug"
+    },
+    "collection": {
+      "type": "string",
+      "title": "Collection Slug"
+    },
+    "dimensions": {
+      "type": "string",
+      "title": "Dimensions"
+    },
+    "technique": {
+      "type": "string",
+      "title": "Technique"
+    },
+    "year": {
+      "type": "number",
+      "title": "Year"
+    },
+    "edition": {
+      "type": "string",
+      "title": "Edition Status",
+      "enum": [
+        "Unique Piece",
+        "Limited Edition",
+        "Open Edition"
+      ]
+    },
+    "availability": {
+      "type": "string",
+      "title": "Availability",
+      "enum": [
+        "Available",
+        "Sold",
+        "Reserved",
+        "On Inquiry"
+      ]
+    },
+    "price": {
+      "type": "number",
+      "title": "Price (USD)"
+    },
+    "description": {
+      "type": "string",
+      "title": "Emotional Description"
+    },
+    "certificate_note": {
+      "type": "string",
+      "title": "Certificate Note"
+    },
+    "image": {
+      "type": "string",
+      "title": "Primary Image URL"
+    },
+    "image_2": {
+      "type": "string",
+      "title": "Detail Image 2"
+    },
+    "image_3": {
+      "type": "string",
+      "title": "Detail Image 3"
+    },
+    "featured": {
+      "type": "boolean",
+      "title": "Featured on Home"
+    },
+    "sort_order": {
+      "type": "number",
+      "title": "Sort Order"
+    }
+  },
+  "required": [
+    "title",
+    "slug",
+    "collection"
+  ]
+}
